@@ -1,4 +1,4 @@
-//
+//MenuHeaderView
 //  MenuHeaderViewController.swift
 //  SideMenu
 //
@@ -8,14 +8,37 @@
 
 import UIKit
 
-// class MenuHeaderViewController : UIView{
-//    
-//}
+
 
 @IBDesignable class MenuHeaderView: UIView {
-   /* @IBOutlet var profileImage: UIImageView!
-    @IBOutlet var profileName: UILabel!*/
+    
     var view : UIView!
+    
+    //Outlets
+    
+    @IBOutlet weak var imageProfile: UIImageView!
+    @IBOutlet weak var userName: UILabel!
+    
+    
+    @IBInspectable var image : UIImage{
+        get{
+            return imageProfile.image!
+        }
+        set(image){
+            imageProfile.image = image
+        }
+    }
+    
+    @IBInspectable var name : String{
+        get{
+            return userName.text!
+        }
+        set(name){
+            userName.text = name
+        }
+    }
+    
+    
     
     override init(frame: CGRect) {
         // 1. setup any properties here

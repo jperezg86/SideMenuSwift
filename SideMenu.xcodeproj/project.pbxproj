@@ -14,10 +14,10 @@
 		0281F3BE1C0DFEB100B7B4ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0281F3BC1C0DFEB100B7B4ED /* LaunchScreen.storyboard */; };
 		0281F3C91C0E025D00B7B4ED /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0281F3C81C0E025D00B7B4ED /* SWRevealViewController.m */; };
 		0281F3CB1C0E110200B7B4ED /* MenuTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281F3CA1C0E110200B7B4ED /* MenuTableView.swift */; };
-		0281F3CD1C0E18ED00B7B4ED /* MenuHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0281F3CC1C0E18ED00B7B4ED /* MenuHeaderView.xib */; };
 		0281F3D01C0E19D200B7B4ED /* persona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0281F3CF1C0E19D200B7B4ED /* persona.jpg */; };
 		0281F3D21C0E1C7A00B7B4ED /* MenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281F3D11C0E1C7A00B7B4ED /* MenuHeaderView.swift */; };
 		0281F3D41C0E3F3D00B7B4ED /* user_mujer.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0281F3D31C0E3F3D00B7B4ED /* user_mujer.jpeg */; };
+		02CA9C1C1C0F039400AA579C /* MenuHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02CA9C1B1C0F039400AA579C /* MenuHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +32,10 @@
 		0281F3C71C0E025D00B7B4ED /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		0281F3C81C0E025D00B7B4ED /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		0281F3CA1C0E110200B7B4ED /* MenuTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableView.swift; sourceTree = "<group>"; };
-		0281F3CC1C0E18ED00B7B4ED /* MenuHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuHeaderView.xib; sourceTree = "<group>"; };
 		0281F3CF1C0E19D200B7B4ED /* persona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = persona.jpg; sourceTree = "<group>"; };
 		0281F3D11C0E1C7A00B7B4ED /* MenuHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuHeaderView.swift; sourceTree = "<group>"; };
 		0281F3D31C0E3F3D00B7B4ED /* user_mujer.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user_mujer.jpeg; sourceTree = "<group>"; };
+		02CA9C1B1C0F039400AA579C /* MenuHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuHeaderView.xib; path = ../MenuHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +77,8 @@
 				0281F3BC1C0DFEB100B7B4ED /* LaunchScreen.storyboard */,
 				0281F3BF1C0DFEB100B7B4ED /* Info.plist */,
 				0281F3CA1C0E110200B7B4ED /* MenuTableView.swift */,
-				0281F3CC1C0E18ED00B7B4ED /* MenuHeaderView.xib */,
 				0281F3D11C0E1C7A00B7B4ED /* MenuHeaderView.swift */,
+				02CA9C1B1C0F039400AA579C /* MenuHeaderView.xib */,
 			);
 			path = SideMenu;
 			sourceTree = "<group>";
@@ -160,9 +160,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0281F3CD1C0E18ED00B7B4ED /* MenuHeaderView.xib in Resources */,
 				0281F3BE1C0DFEB100B7B4ED /* LaunchScreen.storyboard in Resources */,
 				0281F3BB1C0DFEB100B7B4ED /* Assets.xcassets in Resources */,
+				02CA9C1C1C0F039400AA579C /* MenuHeaderView.xib in Resources */,
 				0281F3D01C0E19D200B7B4ED /* persona.jpg in Resources */,
 				0281F3D41C0E3F3D00B7B4ED /* user_mujer.jpeg in Resources */,
 				0281F3B91C0DFEB100B7B4ED /* Main.storyboard in Resources */,
@@ -293,7 +293,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SideMenu/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(CONFIGURATION_BUILD_DIR)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tps.examples.SideMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SideMenu-Bridging-Header.h";
@@ -307,7 +307,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SideMenu/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(CONFIGURATION_BUILD_DIR)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tps.examples.SideMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SideMenu-Bridging-Header.h";
@@ -333,6 +333,7 @@
 				0281F3C41C0DFEB100B7B4ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
