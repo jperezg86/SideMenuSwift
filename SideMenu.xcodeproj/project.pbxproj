@@ -18,6 +18,7 @@
 		0281F3D21C0E1C7A00B7B4ED /* MenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281F3D11C0E1C7A00B7B4ED /* MenuHeaderView.swift */; };
 		0281F3D41C0E3F3D00B7B4ED /* user_mujer.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0281F3D31C0E3F3D00B7B4ED /* user_mujer.jpeg */; };
 		02CA9C1C1C0F039400AA579C /* MenuHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02CA9C1B1C0F039400AA579C /* MenuHeaderView.xib */; };
+		02CDD1F81C237567001C71ED /* bg_user_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 02CDD1F71C237567001C71ED /* bg_user_pic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		0281F3D11C0E1C7A00B7B4ED /* MenuHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuHeaderView.swift; sourceTree = "<group>"; };
 		0281F3D31C0E3F3D00B7B4ED /* user_mujer.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user_mujer.jpeg; sourceTree = "<group>"; };
 		02CA9C1B1C0F039400AA579C /* MenuHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuHeaderView.xib; path = ../MenuHeaderView.xib; sourceTree = "<group>"; };
+		02CDD1F71C237567001C71ED /* bg_user_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_user_pic.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		0281F3CE1C0E19C300B7B4ED /* images */ = {
 			isa = PBXGroup;
 			children = (
+				02CDD1F71C237567001C71ED /* bg_user_pic.png */,
 				0281F3D31C0E3F3D00B7B4ED /* user_mujer.jpeg */,
 				0281F3CF1C0E19D200B7B4ED /* persona.jpg */,
 			);
@@ -160,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02CDD1F81C237567001C71ED /* bg_user_pic.png in Resources */,
 				0281F3BE1C0DFEB100B7B4ED /* LaunchScreen.storyboard in Resources */,
 				0281F3BB1C0DFEB100B7B4ED /* Assets.xcassets in Resources */,
 				02CA9C1C1C0F039400AA579C /* MenuHeaderView.xib in Resources */,
