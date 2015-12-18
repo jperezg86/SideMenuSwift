@@ -39,10 +39,11 @@ import UIKit
     }
     
     func doRoundedCornersImage(){
-        self.imageProfile.layer.cornerRadius = (self.imageProfile.frame.size.width/2)
+//        self.imageProfile.layer.cornerRadius = (self.imageProfile.frame.size.width/3)
+        self.imageProfile.layer.cornerRadius = 35
         self.imageProfile.clipsToBounds = true
         //Agrega borde
-        self.imageProfile.layer.borderWidth = 3.0;
+        self.imageProfile.layer.borderWidth = 1.0;
         self.imageProfile.layer.borderColor = UIColor.whiteColor().CGColor
     }
     
