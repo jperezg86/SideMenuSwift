@@ -38,6 +38,13 @@ import UIKit
         }
     }
     
+    func doRoundedCornersImage(){
+        self.imageProfile.layer.cornerRadius = (self.imageProfile.frame.size.width/2)
+        self.imageProfile.clipsToBounds = true
+        //Agrega borde
+        self.imageProfile.layer.borderWidth = 3.0;
+        self.imageProfile.layer.borderColor = UIColor.whiteColor().CGColor
+    }
     
     
     override init(frame: CGRect) {
@@ -46,6 +53,7 @@ import UIKit
         super.init(frame: frame)
         // 3. Setup view from .xib file
         xibSetup()
+        self.doRoundedCornersImage()
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -55,6 +63,9 @@ import UIKit
         
         // 3. Setup view from .xib file
         xibSetup()
+        
+        self.doRoundedCornersImage()
+        
     }
     
     func xibSetup(){

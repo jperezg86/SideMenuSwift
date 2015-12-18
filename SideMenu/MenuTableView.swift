@@ -13,7 +13,7 @@ class MenuTableView: UITableViewController {
     
     override func viewDidLoad() {
         menuItems = ["Opcion 1","Opcion 2","Opcion 3"]
-        let headerView  = MenuHeaderView(frame: CGRect(x: 0.0, y: 0.0, width: 200.0, height: 200.0))
+        let headerView  = MenuHeaderView(frame: CGRect(x: 0.0, y: 0.0, width: 380, height: 130))
         self.tableView.tableHeaderView = headerView
 
     }
